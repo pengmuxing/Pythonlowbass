@@ -1,0 +1,12 @@
+name1="asdfghjkl"
+print(name1[1:5])
+#这里的print后面不用”“,因为要截取，这里截取4格式为【起始位置：终止位置：步长】
+name="abcdefABCDEF"
+print(name[0:])
+#这里输出直接从第一位到最后一位
+print(name[1:-1])
+#这里截取到的字符串是从第二个到倒数第二个
+print(name[1:3:1])
+#起始位置：终止位置：步长
+print("="*50)
+#"连续输出"
