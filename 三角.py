@@ -10,9 +10,9 @@ while i<=5:
 
 
 num=1
-while num<=10:
+while num<=5:
     d=1
-    while d<=10:
+    while d<=2:
         print("*",end="")
         d+=1
     print("")
